@@ -4,6 +4,12 @@
 #include <unistd.h>
 #include <math.h>
 
+/* 1)Write a program that has a parent process that accepts the 
+type and dimensions of a givenpolygon and calculates for its area.
+2)Let the parent process parametersthat it receives to a child process 
+through an ordinary pipe,such that the child can compute for the number
+of triangles that can be obtained from the polygon*/
+
 int main(int argc, char * argv[]){
     //Assuming no input value is greater than 20 characters.
     char buffer[20];
